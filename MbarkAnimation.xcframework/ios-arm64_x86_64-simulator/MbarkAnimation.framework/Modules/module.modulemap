@@ -1,0 +1,11 @@
+framework module MbarkAnimation {
+  umbrella header "MbarkAnimation.h"
+
+  export *
+  module * { export * }
+}
+
+module MbarkAnimation.Swift {
+    header "MbarkAnimation-Swift.h"
+    requires objc
+}
